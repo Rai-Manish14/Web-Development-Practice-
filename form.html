@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- FROM HERE STARTS THE HEAD -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <!-- HERE LIES THE CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- HERE LISE THE JAVASCRIPT -->
+    <script src="javascript.js"></script>
+</head>
+
+    <!-- FROM HERE STARTS THE BODY -->
+<body>
+    <h2>THIS IS A FORM</h2>
+    <br>
+    <form action="backend.php">
+
+        <div>
+            Enter Your Name : <input type="text">
+        </div>
+        <br>
+        <div>
+            Enter your Roll No. : <input type="number">
+        </div>
+        <br>
+        <div>
+            <label for="Gender">Select your gender: </label>
+            <select name="Gender" id="gender">
+                <option value="Se">Select</option>
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+                <option value="Ot">Others</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Enter DOB : <input type="date">
+        </div>
+        <br>
+        <div>
+            Enter your image : <input type="file">
+        </div>
+        <br>
+        <div>
+            Self Destruct : <input type="button" value="Don't Click Here">
+        </div>
+        <br>
+        <div>
+            Submit : <input type="submit">
+            RESET<input type="reset">
+        </div>
+    </form>
+</body>
+</html>
